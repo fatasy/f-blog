@@ -6,12 +6,17 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
+    "@elysiajs/cors": "^0.7.2",
     "@elysiajs/cron": "^0.7.0",
     "@prisma/client": "5.7.1",
     "elysia": "latest",
-    "openai": "^4.24.1"
+    "lefthook": "^1.5.5",
+    "openai": "^4.24.1",
+    "prisma-extension-pagination": "^0.6.0",
+    "youtube-transcript": "^1.0.6"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.4.1",
     "bun-types": "latest",
     "prisma": "^5.7.1"
   },

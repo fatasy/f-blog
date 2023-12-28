@@ -1,0 +1,6 @@
+# Configuração do EditorConfig para usar espaços como indentação
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
